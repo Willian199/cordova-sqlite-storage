@@ -1,3 +1,27 @@
+Fixed a issue on android 11 devices.
+
+Issue link: https://github.com/storesafe/cordova-sqlite-storage/issues/991
+
+Original fix: https://github.com/OutSystems/Cordova-sqlite-storage
+
+    Obs:
+    TargetSdkVersion=30
+    Android Platform=8.1.0
+
+    Tested and fixed devices:
+    Motorola One Vision
+    Xiaomi Mi 10T
+    Samsung Galaxy A31, S21
+
+    JS example:
+             db = window.sqlitePlugin.openDatabase({
+                 name: 'database.db',
+                 location: 'default',
+                 androidDatabaseProvider: 'system',
+                 androidLockWorkaround: 1
+              });
+
+
 # Cross-platform SQLite storage plugin for Cordova / PhoneGap - cordova-sqlite-storage plugin version
 
 Native SQLite component with API based on HTML5/[Web SQL (DRAFT) API](http://www.w3.org/TR/webdatabase/) for the following platforms:
