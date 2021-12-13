@@ -9,9 +9,8 @@ Original fix: https://github.com/OutSystems/Cordova-sqlite-storage
     Android Platform=8.1.0
 
     Tested and fixed devices:
-    Motorola One Vision
-    Xiaomi Mi 10T
-    Samsung Galaxy A31, S21
+    Xiaomi Mi
+    Samsung Galaxy
 
     JS example:
              db = window.sqlitePlugin.openDatabase({
