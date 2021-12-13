@@ -226,7 +226,7 @@ public class SQLitePlugin extends CordovaPlugin {
             try {
                 mydb.open(dbfile);
             } catch (Exception e) {
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R &&
+                if ((Build.VERSION.SDK_INT >= Build.VERSION_CODES.R || Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP) &&
                         mydb instanceof SQLiteConnectorDatabase &&
                         (e instanceof NullPointerException || e instanceof java.sql.SQLException)) {
                     Log.v(SQLitePlugin.class.getSimpleName(), "Applying hotfix for Android 11+");
