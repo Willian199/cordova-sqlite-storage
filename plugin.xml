@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-sqlite-storage"
-    version="6.0.0">
+    version="6.0.1">
 
-    <name>Cordova SQLite storage plugin - cordova-sqlite-storage plugin version</name>
-
+    <name>Cordova SQLite storage plugin</name>
     <license>MIT</license>
-
     <keywords>sqlite</keywords>
 
     <description>Native interface to SQLite for PhoneGap/Cordova. Allows you to use more storage and provides more flexibility than the standard Web SQL database (window.openDatabase).</description>
@@ -23,7 +20,7 @@
     <hook type="before_plugin_install" src="scripts/beforePluginInstall.js" />
 
     <js-module src="www/SQLitePlugin.js" name="SQLitePlugin">
-        <clobbers target="SQLitePlugin" />
+        <clobbers target="window.SQLitePlugin" />
     </js-module>
 
     <!-- android -->

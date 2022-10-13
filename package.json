@@ -1,36 +1,30 @@
 {
   "name": "cordova-sqlite-storage",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Native interface to SQLite for PhoneGap / Cordova - cordova-sqlite-storage plugin version",
   "cordova": {
     "id": "cordova-sqlite-storage",
     "platforms": [
       "android",
-      "browser",
-      "ios",
-      "osx",
-      "windows"
+      "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xpbrew/cordova-sqlite-storage.git"
+    "url": "https://github.com/Willian199/cordova-sqlite-storage-android-11-fix.git"
   },
   "keywords": [
     "sqlite",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-browser",
-    "cordova-ios",
-    "cordova-osx",
-    "cordova-windows"
+    "cordova-ios"
   ],
   "author": "various",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xpbrew/cordova-sqlite-storage/issues"
+    "url": "https://github.com/Willian199/cordova-sqlite-storage-android-11-fix/issues"
   },
-  "homepage": "https://github.com/xpbrew/cordova-sqlite-storage",
+  "homepage": "https://github.com/Willian199/cordova-sqlite-storage-android-11-fix",
   "dependencies": {
     "cordova-sqlite-storage-dependencies": "4.0.0"
   },
