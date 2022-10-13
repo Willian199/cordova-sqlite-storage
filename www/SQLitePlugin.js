@@ -886,7 +886,7 @@
     }
   };
 
-  root.sqlitePlugin = {
+  Window.sqlitePlugin = {
     sqliteFeatures: {
       isSQLitePlugin: true
     },
@@ -914,3 +914,6 @@
   };
 
 }).call(this);
+
+
+module.exports = SQLiteFactory;
